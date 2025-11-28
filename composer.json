@@ -1,0 +1,20 @@
+{
+    "name": "gabim/parking-project-solid",
+    "description": "Estacionamento com princípios do SOLID",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriele Martinez",
+            "email": "gabimarti099@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    }
+}
