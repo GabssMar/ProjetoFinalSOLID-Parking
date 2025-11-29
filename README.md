@@ -66,6 +66,26 @@ ISP: Interfaces focadas e específicas.
 
 DIP: O sistema depende de abstrações (ParkingRepository), não de implementações concretas (Sqlite...).
 
+## Telas do sistema
+
+### Tela Inicial
+
+Visualizar os veículos estacionados, quais já tem data de saída e quais ainda estão ativos, também é possível excluir registros.
+
+<img width="1478" height="410" alt="image" src="https://github.com/user-attachments/assets/e431bbc9-c880-4f3a-abcb-b80f5ef0040f" />
+
+### Tela de cadastro
+
+Adicionar um novo veículo ao estacionamento, escolher seu tipo (carro, moto, caminhão), adicionar e placa e horário de entrada
+
+<img width="1491" height="436" alt="image" src="https://github.com/user-attachments/assets/1d05923c-35fc-4585-a82e-07229b7ba8ae" />
+
+### Tela de Edição
+
+Mudar a placa, o tipo de veículo, seu horário de entrada e adicionar seu horário de saída (o preço é calculado automaticamente).
+
+<img width="1499" height="560" alt="image" src="https://github.com/user-attachments/assets/4b617a1b-a085-4e68-a82d-cbf8459d1ae4" />
+
 ## Como Rodar o Projeto
 
 **Pré-requisitos**
