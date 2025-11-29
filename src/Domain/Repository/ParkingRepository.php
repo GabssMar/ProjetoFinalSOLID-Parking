@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Domain;
+namespace App\Domain\Repository;
+
+use App\Domain\Entity\Parking;
 
 interface ParkingRepository
 {
@@ -13,7 +15,7 @@ interface ParkingRepository
 
     public function getById(int $id): ?Parking;
 
-    public function save(Parking $parking): Parking;
+    public function save(Parking $parking): void;
 
     public function update(Parking $parking): void;
 

@@ -22,7 +22,7 @@ class SqliteParkingRepository implements ParkingRepository
     {
         $stmt = $this->pdo->prepare("
             INSERT INTO parkings (plate, vehicle_type, start_time, end_time, total_price)
-            VALUES (:plate, :type, :start, :end, :price)s
+            VALUES (:plate, :type, :start, :end, :price)
         ");
 
         $stmt->execute([
