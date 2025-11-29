@@ -98,15 +98,17 @@ Composer instalado.
 
 **Clone o repositório:**
 
+```
 git clone [https://github.com/GabssMar/ProjetoFinalSOLID-Parking.git](https://github.com/GabssMar/ProjetoFinalSOLID-Parking.git)
 cd ProjetoFinalSOLID-Parking
-
+```
 
 **Instale as dependências e gere o Autoload:**
 
+```
 composer install
 composer dump-autoload
-
+```
 
 **Configure o Banco de Dados:**
 
@@ -119,7 +121,7 @@ Execute o script de setup para criar o arquivo database.sqlite e as tabelas:
 
 Você pode usar o servidor embutido do PHP:
 
-php -S localhost:8000
+```php -S localhost:8000```
 
 
 Acesse:
